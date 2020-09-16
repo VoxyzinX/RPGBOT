@@ -34,7 +34,7 @@ Bem-vindo ao `NedRPG`. Este é um bot de código aberto escrito em Discord.JS ut
 * [] Comando Comprar
     * [] Compre itens (* possivelmente como uma coleção no banco de dados? *) Aqui:
 * [] Sistema de armas?
-    * [] Comece com 4 tipos e níveis diferentes? (como [rs] (https://runescape.com)?)
+    * [] Comece com 4 tipos e níveis diferentes? (como [rs](https://runescape.com)?)
 * [ ] Perfil
   * [ ] Nível
   * [ ] Estatísticas
