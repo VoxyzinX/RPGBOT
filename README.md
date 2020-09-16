@@ -1,54 +1,54 @@
-# Welcome
+# Bem-vinda
 
-Welcome to `NedRPG`. This is a open-source bot written in Discord.JS utilizing MongoDB using the npm package `mongoose`. 
+Bem-vindo ao `NedRPG`. Este é um bot de código aberto escrito em Discord.JS utilizando MongoDB usando o pacote npm `mongoose`.
 
-## Discord Server
+## Servidor Discord
 
-To join the support and test server [click here](https://discord.gg/wJVNCZJ)
 
-## Plans
 
-* [x] Economy system
-  * [x] Give coins at random
-  * [x] Pay command
-  * [x] Coins Command
-  * [x] Coins leaderboard
-* [ ] The basics  
-    * [ ] Cooldown
-    * [ ] Alias
-    * [x] Help command (*use module.exports.help or manually add?*)
-        * [ ] Made it manually for now, will update to automatic later    
-* [ ] Battle
-  * [x] Base mechanics added
-  * [ ] User data collection comes in here? what do i need in
-    * [ ] Win Loss ratio
-    * [ ] Level/XP
-  * [ ] Classes?
-    * [ ] Names? (Warrior, Mage, Archer, etc?)  *these all suck so please suggest some class names*
-  * [ ] Profile
-  * [ ] Level
-  * [x] Record handling
-  * [ ] Record Command (W/L, %, lvl, etc)
-    * [ ] Is this going to be on the main profile or a different collection?
-  * [x] Challenging opponents by using awaitMessages
-* [ ] Buy command
-    * [ ] Shop items (*possibly as a collection in the db?*) here: 
-* [ ] Weapon System?
-    * [ ] Start out as 4 types and different levels? (like [rs](https://runescape.com)?)
-* [ ] Profile
-  * [ ] Level
-  * [ ] Stats
-  * [ ] Record (W/L)
-* [ ] Pet System
-    * [x] Buying pet
-        * [x] Confirmation for 1000 coins. 
-    * [x] Train
-        * [x] To train you would go to DMs with bot and you'd fight dummy. 
-        * [x] Hit damage based on strength only and experience based on hit.
-    * [ ] Pet Battle    
-        * [ ] Outcome based on all 4 skills
-        * [ ] Battle log. (Save to mongo?)
-    * [ ] Command to reroll. First free, cost after that? 
-        * [x] price for reroll formula : rerollcount * 100? (make it simple.)
-        * [ ] Reset stats on reroll
-        * [ ] Confirmation with awaitMessages()
+## Planos
+
+* [x] Sistema econômico
+  * [x] Dê moedas aleatoriamente
+  * [x] Comando de pagamento
+  * [x] Comando Moedas
+  * [x] Tabela de classificação de moedas
+* [ ] O básico
+    * [ ] Esfriar
+    * [] Alias
+    * [x] Comando de ajuda (* use module.exports.help ou adicione manualmente? *)
+        * [] Feito manualmente por enquanto, será atualizado para automático mais tarde
+* [] Batalha
+  * [x] Mecânica de base adicionada
+  * [] A coleta de dados do usuário vem aqui? o que eu preciso em
+    * [] Índice de perdas e ganhos
+    * [] Nível / XP
+  * [ ] Aulas?
+    * [] Nomes? (Guerreiro, Mago, Arqueiro, etc?) * Todos esses são péssimos, então, sugira alguns nomes de classe *
+  * [ ] Perfil
+  * [ ] Nível
+  * [x] Tratamento de registros
+  * [] Comando de registro (W / L,%, lvl, etc)
+    * [] Isso vai estar no perfil principal ou em uma coleção diferente?
+  * [x] Desafiando oponentes usando awaitMessages
+* [] Comando Comprar
+    * [] Compre itens (* possivelmente como uma coleção no banco de dados? *) Aqui:
+* [] Sistema de armas?
+    * [] Comece com 4 tipos e níveis diferentes? (como [rs] (https://runescape.com)?)
+* [ ] Perfil
+  * [ ] Nível
+  * [ ] Estatísticas
+  * [] Registro (W / L)
+* [] Sistema de Pet
+    * [x] Comprando animal de estimação
+        * [x] Confirmação para 1000 moedas.
+    * [x] Trem
+        * [x] Para treinar, você iria para DMs com bot e lutaria com um boneco.
+        * [x] Dano de acerto baseado apenas na força e na experiência com base no acerto.
+    * [] Pet Battle
+        * [] Resultado com base em todas as 4 habilidades
+        * [] Registro de batalha. (Salvar no mongo?)
+    * [] Comando para rolar novamente. Primeiro grátis, depois disso custa?
+        * [x] preço para fórmula de relançar: contagem de nova rolagem * 100? (simplifique.)
+        * [] Redefinir estatísticas na nova rolagem
+        * [] Confirmação com awaitMessages ()
